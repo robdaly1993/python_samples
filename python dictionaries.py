@@ -1,14 +1,14 @@
 #pyhton dictionarys:
 
 
-example1:
+#example1:
 
 #Write a function named members that takes two 
 arguments, a dictionary and a list of keys. Return a
  count of how many of the items in 
  the list are also keys in the dictionary.
  
- # You can check for dictionary membership using the
+# You can check for dictionary membership using the
 # "key in dict" syntax from lists.
 
 ### Example
@@ -29,9 +29,9 @@ def members(some_dict, key_list):
             
 			
 			
-example 2:
-Create a function named word_count() that takes a string. Return a dictionary with
- each word in the string as the key and the number of times it appears as the value
+#example 2:
+#Create a function named word_count() that takes a string. Return a dictionary with
+#each word in the string as the key and the number of times it appears as the value
 
 # E.g. word_count("I am that I am") gets back a dictionary like:
 # {'i': 2, 'am': 2, 'that': 1}
@@ -54,10 +54,10 @@ def word_count(iterable):
             count = count +1
         return iterable
 		
-example 4:
-Create a function named string_factory that accepts a list of dictionaries and a string.
- Return a new list built by using .
-format() on the string, filled in by each of the dictionaries in the list.
+#example 4:
+#Create a function named string_factory that accepts a list of dictionaries and a string.
+#Return a new list built by using .
+#format() on the string, filled in by each of the dictionaries in the list.
 
 dicts = [
     {'name': 'Michelangelo',
@@ -80,10 +80,10 @@ def string_factory(dicts, string):
 
 	
 	
-example 5:
-Create a function named most_classes that takes a dictionary of teachers.
- Each key is a teacher's name and their value is a list of classes they've taught. 
-most_classes should return the teacher with the most classes.
+#example 5:
+#Create a function named most_classes that takes a dictionary of teachers.
+#Each key is a teacher's name and their value is a list of classes they've taught. 
+#most_classes should return the teacher with the most classes.
 
 # The dictionary will be something like:
 # {'Jason Seifer': ['Ruby Foundations', 'Ruby on Rails Forms', 'Technology Foundations'],
@@ -109,19 +109,9 @@ def most_classes(dict_of_tech):
             most_class = teacher
     
     return most_class
-
 	
-	
-	
-	
-	
-	
-	Now, create a function named stats that takes the teacher dictionary. Return a list of lists in the format [<teacher name>, <number of classes>].
-	For example, one item in the list would be ['Dave McFarland', 1].
-	
-	
-	
-	
+#Now, create a function named stats that takes the teacher dictionary. Return a list of lists in the format [<teacher name>, <number of classes>].
+#For example, one item in the list would be ['Dave McFarland', 1].
 def num_teachers(dicts):
     count = 0
     for key in dicts:
@@ -129,10 +119,10 @@ def num_teachers(dicts):
     return count 
         			
 					
-					Challenge Task 3 of 4
+#Challenge Task 3 of 4
 
-Now, create a function named stats that takes the teacher dictionary. Return a list of lists in the format [<teacher name>, <number of classes>].
-For example, one item in the list would be ['Dave McFarland', 1].
+#Now, create a function named stats that takes the teacher dictionary. Return a list of lists in the format [<teacher name>, <number of classes>].
+#For example, one item in the list would be ['Dave McFarland', 1].
 
 def  stats(dicts):
     num_classes = []
